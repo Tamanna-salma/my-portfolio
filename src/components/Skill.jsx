@@ -11,7 +11,7 @@ const Skill = () => {
   });
 
   return (
-    <div  className='py-24 bg-slate-900 px-6 text-white'>
+    <div  className='py-14 bg-slate-900 px-6 text-white'>
       <div className="container mx-auto">
         <motion.h2 
           initial={{ opacity: 0, y: -20 }}
