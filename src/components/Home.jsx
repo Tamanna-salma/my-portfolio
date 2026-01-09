@@ -10,13 +10,13 @@ import Contact from './Contact'
 const Home = () => {
   return (
     <div>
-        <Banner></Banner>
+         <Banner></Banner>
         <About></About>
         <Skill></Skill>
         <Education></Education>
         <Experience></Experience>
         <Projectes></Projectes>
-        <Contact></Contact>
+        <Contact></Contact> 
     </div>
   )
 }

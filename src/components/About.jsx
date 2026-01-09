@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 
 const About = () => {
   return (
-    <div className='py-24 px-6 bg-slate-900 overflow-hidden'>
-      <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+    <div className='py-10 px-6 bg-slate-900 overflow-hidden'>
+      <div className="max-w-6xl mx-auto px-5 grid md:grid-cols-2 gap-12 items-center">
         
         
         <motion.div 

@@ -5,8 +5,8 @@ import { IoMail } from 'react-icons/io5';
 
 const Banner = () => {
   return (
-    <div id="home" className="min-h-screen flex items-center justify-center bg-slate-900 pt-20 pb-10 px-6 overflow-hidden">
-      <div className="max-w-4xl mx-auto text-center">
+    <div id="home" className="min-h-screen flex items-center justify-center mt-6 bg-slate-900 pt-20 pb-10 px-6 overflow-hidden">
+      <div className="max-w-6xl mx-auto px-5 text-center">
         
         {/* Profile Image Section with Entrance Animation */}
         <motion.div 

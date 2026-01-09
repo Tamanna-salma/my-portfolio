@@ -4,8 +4,8 @@ import { FaGraduationCap, FaBookOpen, FaAward } from 'react-icons/fa';
 
 const Education = () => {
   return (
-    <section  className="py-14 bg-slate-900 text-white px-6 overflow-hidden">
-      <div className="max-w-4xl mx-auto relative">
+    <section  className="py-10 bg-slate-900 text-white px-6 overflow-hidden">
+      <div className="max-w-6xl mx-auto px-5 relative">
         
         {/* Background Decorative Element */}
         <div className="absolute -top-10 -left-10 w-32 h-32 bg-indigo-500/10 rounded-full blur-3xl"></div>

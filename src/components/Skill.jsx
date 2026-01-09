@@ -11,8 +11,8 @@ const Skill = () => {
   });
 
   return (
-    <div  className='py-14 bg-slate-900 px-6 text-white'>
-      <div className="container mx-auto">
+    <div  className='py-10 bg-slate-900 px-6 text-white'>
+      <div className="max-w-6xl px-5 mx-auto">
         <motion.h2 
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}

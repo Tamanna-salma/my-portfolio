@@ -23,8 +23,8 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience" className="py-14 bg-slate-900 text-white px-6">
-      <div className="max-w-5xl mx-auto">
+    <section id="experience" className="py-10 bg-slate-900 text-white px-6">
+      <div className="max-w-6xl px-5 mx-auto">
         <motion.h2 
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
