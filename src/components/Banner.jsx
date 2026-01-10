@@ -5,7 +5,7 @@ import { IoMail } from 'react-icons/io5';
 
 const Banner = () => {
   return (
-    <div id="home" className="min-h-screen flex items-center justify-center mt-6 bg-slate-900 pt-20 pb-10 px-6 overflow-hidden">
+    <div id="home" className="min-h-screen flex items-center justify-center mt-6 bg-slate-900 pt-20 pb-10 px-4 lg:px-6 overflow-hidden">
       <div className="max-w-6xl mx-auto px-5 text-center">
         
         {/* Profile Image Section with Entrance Animation */}
@@ -19,7 +19,7 @@ const Banner = () => {
           <img 
             src="https://i.ibb.co.com/bSqT813/Whats-App-Image-2026-01-01-at-1-09-09-AM.jpg" 
             alt="Ummey Salma" 
-            className="relative w-40 h-40 md:w-48 md:h-48 rounded-full border-4 border-blue-500 shadow-2xl transition-transform duration-500 hover:rotate-3 object-cover"
+            className="relative w-44 h-44 md:w-48 md:h-48 mt-4 rounded-full border-4 border-blue-500 shadow-2xl transition-transform duration-500 hover:rotate-3 object-cover"
           />
           <div className="absolute bottom-3 right-3 bg-green-500 w-6 h-6 rounded-full border-4 border-slate-900 animate-bounce"></div>
         </motion.div>
@@ -57,7 +57,7 @@ const Banner = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8, duration: 1 }}
-            className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto py-4"
+            className="text-lg md:text-xl text-slate-400 w-full max-w-2xl mx-auto py-4"
           >
             Building seamless digital experiences with modern code and pixel-perfect design.
           </motion.p>

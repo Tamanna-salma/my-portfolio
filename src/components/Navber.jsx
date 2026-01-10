@@ -58,7 +58,7 @@ const Navbar = () => {
           
           {/* Mobile only small button if hidden on desktop */}
           <a href="#contact" className="sm:hidden btn btn-xs btn-primary bg-blue-600 border-none text-[10px] h-8 px-6 rounded-full">
-            Hire
+            Hire Me
           </a>
         </div>
 

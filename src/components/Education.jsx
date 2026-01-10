@@ -14,7 +14,7 @@ const Education = () => {
         <motion.h2 
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          className="text-4xl font-black text-center mb-16 underline decoration-indigo-500 underline-offset-8"
+          className="text-3xl lg:text-4xl font-black text-center mb-16 underline decoration-indigo-500 underline-offset-8"
         >
           Educational Qualification
         </motion.h2>
